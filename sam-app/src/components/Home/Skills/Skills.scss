@@ -1,0 +1,65 @@
+@import '../../../common/common.scss';
+
+.sk-wrapper {
+    background-color: rgb(248, 193, 42); /* Set the background color to yellow */
+    transform: rotate(-2deg); /* Tilt the wrapper slightly */
+    padding: 2rem; /* Add some padding for spacing */
+    height: 40vh; /* Set the height to 40% of the viewport height */
+    width: 50vw; /* Set the width to 60% of the viewport width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Add position relative to the wrapper */
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.4);
+    font-family: 'Nexa-Heavy';
+
+    h2 {
+        margin: 0; /* Remove default margin */
+        position: relative; /* Position the h2 absolutely */
+        top: 5%; /* Align the h2 to the top */
+        transform: rotate(4deg); /* Apply the same tilt transformation */
+        transform-origin: top right; /* Set the origin of rotation to top left */
+        left: 25%;
+    }
+
+    p {
+        background-color: bisque;
+        padding: 2rem;
+    }
+
+    .frontend {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3rem; /* Add some gap between logos */
+        padding: 3rem;
+        position: relative; /* Position relative for absolute positioning of background rectangle */
+        right: 30%;
+        top: 5%;
+        transform: rotate(-4deg);
+        background-color: rgb(255, 122, 255);
+        z-index: 1; /* Ensure the frontend block is above the line */
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .backend {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3rem; /* Add some gap between logos */
+        padding: 3rem;
+        position: relative; /* Position relative for absolute positioning of background rectangle */
+        left: 30%;
+        bottom: 15%;
+        transform: rotate(4deg);
+        background-color: rgb(142, 250, 250);
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    img {
+        width: 6rem; /* Set the width of logos to 6rem */
+        height: 6rem; /* Set the height of logos to 6rem */
+        object-fit: contain; /* Maintain aspect ratio */
+    }
+}

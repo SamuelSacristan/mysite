@@ -1,0 +1,21 @@
+// common.scss
+
+// Colors
+$main-purple: #9370DB;
+$lavender: #D8BFD8;
+$soft-gray: #D3D3D3;
+
+// Fonts
+@font-face {
+  font-family: 'Nexa-Heavy';
+  src: local('Nexa-Heavy'), url('../fonts/Nexa-Heavy.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Nexa-Heavy', sans-serif;
+  // Other common body styles...
+}
+
+// Add any other common styles...

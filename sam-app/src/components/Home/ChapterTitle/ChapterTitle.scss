@@ -1,0 +1,20 @@
+.chapter-block {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .name {
+    margin-right: 10px;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: black;
+  }
+  

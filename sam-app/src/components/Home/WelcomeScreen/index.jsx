@@ -4,11 +4,13 @@ function WelcomeScreen() {
     
     return (
         <div className='ws-wrapper'>
-            <h1 class="text_shadows">Samuel<br />Sacristan</h1>
-            <h2>MERN stack développeur web </h2>
-            <p></p>
+            <p>Bonjour ! Je suis</p>
+            <h1>Samuel Sacristan</h1>
+            <div className='text-wrapper'>
+                <h2>Développeur web</h2>
+                <p>Lorem ipsum blablabla je remplirais après</p>
+            </div>
         </div>
-        
         )
   }
   

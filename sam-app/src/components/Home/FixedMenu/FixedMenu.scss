@@ -1,0 +1,31 @@
+.fixed-menu {
+    position: fixed;
+    bottom: 20%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1.4%;
+    background-color: white;
+    border: 2px solid gray;
+    border-left: none;
+  
+    a {
+      display: block;
+      margin-bottom: 10px;
+      transition: transform 0.3s, color 0.3s;
+      text-decoration: none;
+  
+      svg {
+        width: 30px;
+        height: 30px;
+        color: rgb(56, 56, 56);
+      }
+  
+      &:hover {
+        transform: translateY(-5px);
+        filter: brightness(2);
+      }
+    }
+  }
+  

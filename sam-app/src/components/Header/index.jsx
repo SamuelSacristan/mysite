@@ -20,6 +20,12 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [prevScrollPos, visible]);
 
+  const openResume = () => {
+    const resumeUrl = `${process.env.PUBLIC_URL}/images/ResumeSam.pdf`;
+    window.open(resumeUrl, '_blank');
+  };
+  
+
   return (
     <header className={`header ${visible ? 'visible' : 'hidden'}`}>
       <div className="logo-container">
@@ -30,6 +36,7 @@ const Header = () => {
         <Link to="/about">About Me</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
+        <a href="/pdf/ResumeSam.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
       </div>
     </header>
   );

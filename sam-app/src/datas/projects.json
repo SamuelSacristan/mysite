@@ -1,0 +1,44 @@
+[
+	{
+		"title": "Site d'architecte",
+		"image": "SophieBluelSite.png",
+		"description": "Un de mes projets a été la mise en place du front-end pour le site d’une architecte. Cela passait par l’installation de l’environnement de développement (qui serait sur base de Javascript). L’une des principales fonctionnalités sur laquelle j’ai travaillé est l’ajout, la suppression et l’édition d’images dans une galerie regroupant les différents travaux de l’architecte Sophie Bluel, j’ai pu apprendre à manipuler les éléments du DOM avec JS. Je me suis basé sur le HTML existant pour réécrire le contenu en utilisant Javascript pour rendre le site dynamique et j’ai eu l’occasion d’utiliser des appels d’API avec fetch pour récupérer les différents projets de l’architecte. J’ai pu aussi mettre en place une page de connexion, qui redirige vers une page dédiée aux administrateurs si la connexion est confirmée, ou renvoie un message d’erreur si ce n’est pas le cas.",
+		"languages": [
+			"Javascript",
+			"Html",
+			"CSS",
+			"",
+			""
+		],
+		"link": "https://github.com/SamuelSacristan/Portfolio-architecte-sophie-bluel"
+	},
+    
+    {
+		"title": "Kasa",
+		"image": "KasaSite.png",
+		"description": "J’ai pu travailler avec React en implémentant le front-end d’une application pour une entreprise de location d’appartements, en React, en me basant sur les maquettes fournies et en utilisant des données extraites d’un fichier JSON. Avec ce projet j’ai tout d’abord appris comment initialiser une application avec Create React App. J’ai été chargé de créer les différentes pages de l’application, la page d’accueil, la page d’erreur, et la page logement, qui s’affiche en fonction du logement choisi et de ses données dans le fichier JSON, la navigation entre les différentes pages se fait grâce à React router. Et un des points clé de ce projet a été de créer des éléments React qui peuvent être réutilisables. J’ai aussi pu travailler avec SASS pour la gestion du CSS et l’implémentation d’animations !",
+		"languages": [
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"link": "https://github.com/SamuelSacristan/Kasa"
+	},
+
+    {
+		"title": "Mon Vieux Grimoire",
+		"image": "MonVieuxGrimoireSite.png",
+		"description": "Mon premier projet de back-end ! J’ai eu pour tâche de créer de serveur avec Express et de le connecter à une base de données MongoDB dans le cadre du développement d’un site de notation de livres “Mon Vieux Grimoire”. Je me suis basé sur un front-end déjà prêt. J’ai eu l’occasion de travailler sur les modèles de données et d'implémenter des opérations CRUD pour la gestion des livres ainsi que leur notation. J’ai aussi mis en place un système d’authentification pour les utilisateurs du site en utilisant un module de cryptage de mot de passe et des tokens de connexion. Ce projet comportait aussi la gestion du téléchargement et d’optimisations d’images.",
+		"languages": [
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"link": "https://github.com/SamuelSacristan/Mon-vieux-grimoire"
+	}
+
+]

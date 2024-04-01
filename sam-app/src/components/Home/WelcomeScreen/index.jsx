@@ -1,4 +1,6 @@
 import './WelcomeScreen.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 function WelcomeScreen() {
     
@@ -10,6 +12,10 @@ function WelcomeScreen() {
                 <h2>Développeur web</h2>
                 <p>Lorem ipsum blablabla je remplirais après</p>
             </div>
+            <FontAwesomeIcon className='plus1' icon={faPlus} />
+            <FontAwesomeIcon className='plus2' icon={faPlus} />
+            <FontAwesomeIcon className='plus3' icon={faPlus} />
+            <FontAwesomeIcon className='plus4' icon={faPlus} />
         </div>
         )
   }

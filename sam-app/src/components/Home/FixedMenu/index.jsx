@@ -17,9 +17,9 @@ const FixedMenu = () => {
       <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} size="2xl" />
       </a>
-      <a href="mailto:your.email@example.com">
+      {/* <a href="mailto:your.email@example.com">
         <FontAwesomeIcon icon={faEnvelope} size="2xl" />
-      </a>
+      </a> */}
     </div>
   );
 };

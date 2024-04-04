@@ -32,11 +32,10 @@ const Header = () => {
         <img id="Sam-icon" src={logo} alt="Profil Samuel Sacristan" />
       </div>
       <div className="nav-links">
-        <Link to="/">Home</Link>
-        <Link to="/about">About Me</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
-        <a href="/pdf/ResumeSam.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+        <Link to="/about">À propos</Link>
+        <Link to="/projects">Compétences</Link>
+        <Link to="/contact">Projets</Link>
+        <a href="/pdf/ResumeSam.pdf" target="_blank" rel="noopener noreferrer">Mon CV</a>
       </div>
     </header>
   );

@@ -1,10 +1,14 @@
 @import '../../../common/common.scss';
 
 .pj-wrapper {
-    margin-top: 50px; // Adjust the top margin as needed
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.chapter-block {
+    width: 60vw;
 }
 
 .pjb-wrapper {
@@ -13,39 +17,39 @@
     padding: 20px;
     margin-bottom: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 70%; // Adjust the width as needed
+    width: 70%;
     display: flex;
 
     h3 {
         font-size: 24px;
         margin-bottom: 10px;
-        writing-mode: vertical-rl; // Rotate the text in the opposite direction
-        transform: rotate(180deg); /* Rotate the content 180 degrees */
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
         text-align: end;
         margin-top: 30px;
     }
 
     img {
-        max-width: 40%; // Adjust the image width as needed
+        max-width: 40%;
         height: auto;
         border-radius: 5px;
         margin-bottom: 15px;
-        max-height: 300px; // Adjust the maximum height of the images
-        float: left; // Align the image to the left
-        margin-right: 20px; // Add some margin to separate the image from other content
-        transition: filter 0.3s ease; // Add transition for hover effect
-        filter: grayscale(100%) invert(25%); // Apply red filter by default
+        max-height: 300px;
+        float: left;
+        margin-right: 20px;
+        transition: filter 0.3s ease;
+        filter: grayscale(100%) invert(25%);
         }
 
     img:hover {
-        filter: none; // Remove the grayscale filter on hover
+        filter: none;
     }
 
     .pjbd-wrapper {
         padding-top: 10px;
 
         .description {
-            background-color: rgba(255, 255, 255, 0.651); // Slightly transparent background
+            background-color: rgba(255, 255, 255, 0.651);
             padding: 15px;
             border-radius: 15px;
             margin-bottom: 10px;
@@ -60,7 +64,7 @@
         }
     
         .languages {
-            margin-top: 10px; // Adjust the top margin as needed
+            margin-top: 10px;
             font-size: 16px;
         }
     

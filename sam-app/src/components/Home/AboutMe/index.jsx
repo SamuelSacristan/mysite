@@ -5,10 +5,10 @@ import ChapterTitle from '../ChapterTitle';
 function AboutMe() {
   return (
     <div className='am-wrapper'>
-      <ChapterTitle number="01." name="test" />
+      <ChapterTitle number="01." name="À propos" />
       <div className="content-wrapper">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Développeur web passionné de 24 ans, originaire de Bayonne et récemment diplômé d'une formation Bac+2 via OpenClassrooms. Avec une solide maîtrise des technologies telles que JavaScript, React, Node.js et MongoDB, je vous propose des solutions web innovantes. Besoin d'aide ou de discuter d'un projet ? Retrouvez-moi sur mes réseaux sociaux. Merci de votre visite !
         </p>
       </div>
     </div>

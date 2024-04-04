@@ -50,9 +50,9 @@
       }
 
       &:hover {
-        color: #ff4500; /* Change color on hover */
+        color: #ff4500;
         &:after {
-          transform: scaleX(1); /* Expand line on hover */
+          transform: scaleX(1);
         }
       }
     }

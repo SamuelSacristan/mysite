@@ -1,25 +1,35 @@
 @import '../../../common/common.scss';
 
 .sk-wrapper {
-    background-color: rgb(248, 193, 42); /* Set the background color to yellow */
-    transform: rotate(-2deg); /* Tilt the wrapper slightly */
-    padding: 2rem; /* Add some padding for spacing */
-    height: 40vh; /* Set the height to 40% of the viewport height */
-    width: 50vw; /* Set the width to 60% of the viewport width */
+    height: 70vh;
+    width: 103%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skb-wrapper {
+    border : 2px solid gray;
+    border-radius: 5px;
+    transform: rotate(-1deg);
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    height: 65%;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative; /* Add position relative to the wrapper */
+    position: relative;
     box-shadow: -5px 0 10px rgba(0, 0, 0, 0.4);
     font-family: 'Nexa-Heavy';
 
     h2 {
-        margin: 0; /* Remove default margin */
-        position: relative; /* Position the h2 absolutely */
-        top: 5%; /* Align the h2 to the top */
-        transform: rotate(4deg); /* Apply the same tilt transformation */
-        transform-origin: top right; /* Set the origin of rotation to top left */
+        margin: 0;
+        position: relative;
+        top: 5%;
+        transform: rotate(4deg);
+        transform-origin: top right;
         left: 25%;
     }
 
@@ -32,14 +42,14 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 3rem; /* Add some gap between logos */
+        gap: 3rem;
         padding: 3rem;
-        position: relative; /* Position relative for absolute positioning of background rectangle */
-        right: 30%;
-        top: 5%;
-        transform: rotate(-4deg);
-        background-color: rgb(255, 122, 255);
-        z-index: 1; /* Ensure the frontend block is above the line */
+        border-radius: 20px;
+        transform: rotate(-2deg);
+        backdrop-filter: blur(4.9px);
+        -webkit-backdrop-filter: blur(4.9px);
+        background: radial-gradient(circle at 7.5% 24%, rgba(237, 161, 193, 0.8) 0%, rgba(250, 178, 172, 0.8) 25.5%, rgba(190, 228, 210, 0.8) 62.3%, rgba(215, 248, 247, 0.8) 93.8%);
+        z-index: 1;
         box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
     }
 
@@ -47,19 +57,33 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 3rem; /* Add some gap between logos */
+        gap: 3rem;
         padding: 3rem;
-        position: relative; /* Position relative for absolute positioning of background rectangle */
-        left: 30%;
-        bottom: 15%;
-        transform: rotate(4deg);
-        background-color: rgb(142, 250, 250);
+        border-radius: 20px;
+        transform: rotate(2deg);
+        backdrop-filter: blur(4.9px);
+        -webkit-backdrop-filter: blur(4.9px);
+        background: linear-gradient(111.1deg, rgba(0, 40, 70, 0.8) -4.8%, rgba(255, 115, 115, 0.8) 82.7%, rgba(255, 175, 123, 0.8) 97.2%);
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .tools {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3rem;
+        padding: 3rem;
+        border-radius: 20px;
+        transform: rotate(-1deg);
+        backdrop-filter: blur(4.9px);
+        -webkit-backdrop-filter: blur(4.9px);
+        background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
         box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
     }
 
     img {
-        width: 6rem; /* Set the width of logos to 6rem */
-        height: 6rem; /* Set the height of logos to 6rem */
-        object-fit: contain; /* Maintain aspect ratio */
+        width: 4rem;
+        height: 4rem;
+        object-fit: contain;
     }
 }

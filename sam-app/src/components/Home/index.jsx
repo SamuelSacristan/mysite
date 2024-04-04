@@ -5,6 +5,7 @@ import AboutMe from './AboutMe'
 import FixedMenu from './FixedMenu'
 import FixedMail from './FixedMail'
 import MyProjects from './MyProjects'
+import ContactForm from './ContactForm'
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
             <AboutMe />
             <Skills />
             <MyProjects />
+            <ContactForm />
         </div>
         )
   }

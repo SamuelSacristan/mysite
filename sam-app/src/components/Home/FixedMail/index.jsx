@@ -2,7 +2,7 @@ import React from 'react';
 import './FixedMail.scss';
 
 const FixedMail = () => {
-  const email = 's.sacristan@hotmail.com';
+  const email = 's.sacristan64@hotmail.com';
   const mailtoLink = `mailto:${email}`;
 
   return (

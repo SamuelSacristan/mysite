@@ -1,23 +1,17 @@
 @import '../../../common/common.scss';
 
-.chapter-block {
-    display: flex;
-    align-items: center;
-    font-family: 'Nexa-Heavy';
-  }
-  
-  .number {
-    margin-right: 10px;
-    font-weight: bold;
-  }
-  
-  .name {
-    margin-right: 10px;
-  }
-  
-  .line {
-    flex-grow: 1;
-    height: 2px;
-    background-color: black;
-  }
-  
+.chapter-title {
+  display: flex;
+  align-items: center;
+  font-family: 'Nexa-Heavy';
+}
+
+.number {
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.name {
+  margin-right: 10px;
+}

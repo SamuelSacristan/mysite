@@ -10,6 +10,20 @@
     border: 2px solid gray;
     border-left: none;
     z-index: 2;
+    @media screen and (max-width: 768px) {
+      position: relative;
+      flex-direction: row;
+      border: 2px solid gray;
+      border-bottom: none;
+      gap: 20px;
+    }
+
+    .mailLink {
+      display: none;
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
+    }
   
     a {
       display: block;

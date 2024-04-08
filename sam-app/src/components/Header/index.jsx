@@ -26,15 +26,26 @@ const Header = () => {
   };
   
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  };
+  
+
   return (
     <header className={`header ${visible ? 'visible' : 'hidden'}`}>
       <div className="logo-container">
         <img id="Sam-icon" src={logo} alt="Profil Samuel Sacristan" />
       </div>
       <div className="nav-links">
-        <Link to="/about">À propos</Link>
-        <Link to="/projects">Compétences</Link>
-        <Link to="/contact">Projets</Link>
+        <button onClick={() => scrollToSection('about')}>À propos</button>
+        <button onClick={() => scrollToSection('skills')}>Compétences</button>
+        <button onClick={() => scrollToSection('projects')}>Projets</button>
         <a href="/pdf/ResumeSam.pdf" target="_blank" rel="noopener noreferrer">Mon CV</a>
       </div>
     </header>

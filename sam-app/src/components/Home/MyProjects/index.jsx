@@ -8,7 +8,7 @@ import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 function MyProjects() {
 
     return (
-        <div className='pj-wrapper'>
+        <div id='projects' className='pj-wrapper'>
             <ChapterTitle number="03." name="Projets" />
             {projects.map((project) => (
                 <div className='pjb-wrapper' key={project.title}>
@@ -19,7 +19,12 @@ function MyProjects() {
                             <p>{project.description}</p>
                         </div>
                         <div className="languages">
-                            <p>{project.languages}</p>
+                            {project.languages.map((language, index) => (
+                                <React.Fragment key={index}>
+                                    <span>{language}</span>
+                                    {index !== project.languages.length - 1 && <br />}
+                                </React.Fragment>
+                            ))}
                         </div>
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faSquareGithub} size="2xl" />

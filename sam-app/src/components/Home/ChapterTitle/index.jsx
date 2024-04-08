@@ -3,10 +3,9 @@ import './ChapterTitle.scss';
 
 const ChapterTitle = ({ number, name }) => {
   return (
-    <div className="chapter-block">
+    <div className="chapter-title">
       <div className="number">{number}</div>
       <h2 className="name">{name}</h2>
-      <div className="line"></div>
     </div>
   );
 };

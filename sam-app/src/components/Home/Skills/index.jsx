@@ -12,7 +12,7 @@ import ChapterTitle from '../ChapterTitle'
 function Skills() {
     
     return (
-        <div className='sk-wrapper'>
+        <div id='skills' className='sk-wrapper'>
             <ChapterTitle number="02." name="Compétences" />
             <div className='skb-wrapper'>
                 <div className='frontend'>

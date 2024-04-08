@@ -1,17 +1,27 @@
+@import '../../common/common.scss';
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 60vw;
+  font-family: 'Nexa-Heavy';
+  width: 100%;
   height: 5vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 15px 20%;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 2;
   transition: transform 0.3s ease;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    height: 10vh;
+    padding: none;
+    justify-content: center;
+  }
 
   &.hidden {
     transform: translateY(-100%);
@@ -23,19 +33,72 @@
     border-radius: 50%;
     border: 3px solid #fff;
     border-radius: 50%;
+    @media screen and (max-width: 768px) {
+      height: 2em;
+      width: 2em;
+    }
   }
 
   .nav-links {
     display: flex;
     align-items: center;
+    @media screen and (max-width: 768px) {
+      gap: 1.5rem;
+    }
+
+    button {
+      color: #000;
+      text-decoration: none;
+      margin-left: 20px;
+      font-family: 'Nexa-Heavy';
+      font-size: 15px;
+      position: relative;
+      transition: all 0.3s ease;
+      overflow: hidden;
+      display: inline-block;
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      padding: 0;
+      @media screen and (max-width: 768px) {
+        margin: 0;
+        font-size: 10px;
+      }
+    }
+    
+    button:hover {
+      color: #ff4500;
+    }
+    
+    button:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #000;
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    
+    button:hover:after {
+      transform: scaleX(1);
+    }
+    
 
     a {
       color: #000;
       text-decoration: none;
       margin-left: 20px;
+      font-size: 15px;
       position: relative;
       transition: all 0.3s ease;
       overflow: hidden;
+      @media screen and (max-width: 768px) {
+        margin: 0;
+        font-size: 10px;
+      }
 
       &:after {
         content: '';

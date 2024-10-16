@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.18a7f56e.css",
-    "main.js": "/static/js/main.f44561e1.js",
+    "main.css": "/static/css/main.a9c432f2.css",
+    "main.js": "/static/js/main.d784e375.js",
     "static/media/Icone_Pieuvre_Sam_Originale.jpg": "/static/media/Icone_Pieuvre_Sam_Originale.aaeb7fce8128a5ac1399.jpg",
     "static/media/React-icon.svg.png": "/static/media/React-icon.svg.8a6fc0a24a800d1e0f4a.png",
     "static/media/2560px-Sass_Logo_Color.svg.png": "/static/media/2560px-Sass_Logo_Color.svg.aa16d6441e3e941f60c1.png",
     "static/media/Nexa-Heavy.ttf": "/static/media/Nexa-Heavy.13e16a1c3c48dd492fa9.ttf",
+    "static/media/photosam.jpg": "/static/media/photosam.6bef8aa785b00f1f2bb0.jpg",
     "static/media/Git_icon.svg.png": "/static/media/Git_icon.svg.8dd3688bb1415872d423.png",
     "static/media/Unofficial_JavaScript_logo_2.svg.png": "/static/media/Unofficial_JavaScript_logo_2.svg.53a72c2f1b8894adc207.png",
     "static/media/expressjs_logo_icon_169185.png": "/static/media/expressjs_logo_icon_169185.e3d4f9e5c8b469e45838.png",
     "static/media/nodejs-icon.svg": "/static/media/nodejs-icon.615ffbea9529ca7047ed8a912bfd94b2.svg",
     "static/media/Octicons-mark-github.svg": "/static/media/Octicons-mark-github.3ea7d9bcdf7bb4836e2175ac2a12c306.svg",
-    "static/media/mongodb.svg": "/static/media/mongodb.d18b3c0417bd19d758ccab324a5a44a5.svg",
     "index.html": "/index.html",
-    "main.18a7f56e.css.map": "/static/css/main.18a7f56e.css.map",
-    "main.f44561e1.js.map": "/static/js/main.f44561e1.js.map"
+    "static/media/mongodb.svg": "/static/media/mongodb.d18b3c0417bd19d758ccab324a5a44a5.svg",
+    "main.a9c432f2.css.map": "/static/css/main.a9c432f2.css.map",
+    "main.d784e375.js.map": "/static/js/main.d784e375.js.map"
   },
   "entrypoints": [
-    "static/css/main.18a7f56e.css",
-    "static/js/main.f44561e1.js"
+    "static/css/main.a9c432f2.css",
+    "static/js/main.d784e375.js"
   ]
 }
